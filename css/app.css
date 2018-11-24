@@ -7,6 +7,18 @@
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    color: #2d3c49;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    color: #852424;
+}
+
+h3, h4, p {
+    color: #2d3c49;
 }
 
 header{
@@ -29,4 +41,50 @@ hr {
     border-width: 1px;
     height: 3px;
     background-color: #7d97ad;
+}
+
+.projects{
+    width: 375px;
+    height: 280px;
+    max-width: 375px;
+    max-height: 280px;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+#main-pic{
+    width: 100%;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+
+
+@media only screen and (max-width: 1200px ){
+    .projects{
+        width: 470px;
+        max-width: 470px;
+    }
+}
+
+@media only screen and (max-width: 992px ){
+    .projects{
+        width: 350px;
+        max-width: 350px;
+    }
+}
+
+@media only screen and (max-width: 770px ){
+    .projects{
+        width: 270px;
+        max-width: 270px;
+    }
+}
+
+@media only screen and (max-width: 575px ){
+    .projects{
+        width: 570px;
+        max-width: 100%;
+        min-width: 250px;
+    }
 }
