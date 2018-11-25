@@ -17,7 +17,9 @@ h2{
     color: #852424;
 }
 
-h3, h4, p {
+h3,
+h4,
+p {
     color: #2d3c49;
 }
 
@@ -44,10 +46,6 @@ hr {
 }
 
 .projects{
-    width: 375px;
-    height: 280px;
-    max-width: 375px;
-    max-height: 280px;
     flex-wrap: wrap;
     margin-top: 1em;
 }
@@ -63,27 +61,24 @@ hr {
 @media only screen and (max-width: 1200px ){
     .projects{
         width: 470px;
-        max-width: 470px;
     }
 }
 
 @media only screen and (max-width: 992px ){
     .projects{
         width: 350px;
-        max-width: 350px;
     }
 }
 
 @media only screen and (max-width: 770px ){
     .projects{
         width: 270px;
-        max-width: 270px;
     }
 }
 
 @media only screen and (max-width: 575px ){
     .projects{
-        width: 570px;
+        width: 530px;
         max-width: 100%;
         min-width: 250px;
     }
